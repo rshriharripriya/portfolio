@@ -2480,12 +2480,12 @@ figcaption {
 }
 
 .main-wrapper.vertical-grid {
-  grid-column-gap: 40px;
-  grid-row-gap: 16px;
+  grid-column-gap: 0px;
+  grid-row-gap: 80vh;
   grid-template-rows:auto;
-  grid-template-columns:560px 1fr;
+  grid-template-columns: 76vh 1fr;
   grid-auto-columns: 1fr;
-  display: grid
+  display: grid;
 }
 
 .paragraph-regular {
@@ -3070,6 +3070,9 @@ figcaption {
   line-height: 24px;
   display: block
 }
+.colorblack{
+  color: #0e0b0b !important;
+}
 
 .paragraph-small-block.counter-paragraph {
   max-width: 380px;
@@ -3331,16 +3334,16 @@ figcaption {
 .hero-banner-image {
   z-index: 3;
   width: 100%;
-  height: auto;
+  height: 50vh;
   max-width: 100%;
   text-align: left;
   background-image: none;
   background-repeat: repeat;
   background-size: auto;
-  align-items: center;
+  align-items: right;
   margin-top: auto;
   margin-bottom: auto;
-  padding-top: 560px;
+  padding-top: 45vh;
   display: flex;
   position: relative;
   overflow: hidden
@@ -3370,7 +3373,7 @@ figcaption {
 
 .about-section {
   z-index: 2;
-  background-color: #181b2a;
+  background-color: #18192700;
   padding-top: 96px;
   padding-bottom: 96px;
   position: relative;
@@ -3396,16 +3399,50 @@ figcaption {
 
 .common-heading-h2-content {
   width: 100%;
-  max-width: 560px
+  max-width: 80vh;
+  padding-top: 9vh;
+
+}
+.card {
+  margin-left: -15vh;
+  width: 55vw;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 70vw;
+  height: 60vh;
+  padding: 35px;
+  color: #f4ebeb !important;
+  border: 1px solid rgba(255, 255, 255, .25)!important;
+  border-radius: 20px;
+  background-color: rgb(255 255 255 / 11%)!important;
+  box-shadow: 0 0 12px 1px rgb(236 229 229 / 14%)!important;
+  backdrop-filter: blur(15px)!important;
+}
+.card .paragraph-small-block {
+  /* FONT-WEIGHT: 200; */
+  margin-top: 5vh;
+  margin-bottom: 0;
+  font-family: Inter webfont, sans-serif;
+  font-size: 2.7vh;
+  font-weight: 400;
+  line-height: 4vh;
+  display: block;
+}
+.col
+.card-footer {
+  font-size: 0.65em;
+  color: #446;
 }
 
 .common-heading-h2-content.common-heading-small-width {
-  max-width: 560px
+  max-width: 80vh;
 }
 
 .about-video-play {
   z-index: 1;
-  width: 100%;
+  width: 70%;
   min-height: 382px;
   color: transparent;
   cursor: pointer;
@@ -4568,7 +4605,7 @@ figcaption {
 }
 
 .color-box.akihabara {
-  background-color: #591ef6
+  background-color: #130731
 }
 
 .color-box.coarse-wool {
@@ -4732,7 +4769,8 @@ figcaption {
 
 .play-intro-image {
   width: 100%;
-  max-height: 568px;
+  max-height: 40vh;
+  max-width: 60vh;
   object-fit: cover
 }
 
@@ -6315,7 +6353,7 @@ figcaption {
   }
 
   .about-section {
-    padding-top: 40px;
+    padding-top: 60vh;
     padding-bottom: 40px;
     overflow: hidden
   }
