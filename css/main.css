@@ -198,27 +198,27 @@ td, th {
 }
 
 .w-icon-slider-right:before {
-  content: "î˜€"
+  content: "ÃƒÂ®Ã‹Å“Ã¢â€šÂ¬"
 }
 
 .w-icon-slider-left:before {
-  content: "î˜"
+  content: "ÃƒÂ®Ã‹Å“Ã‚Â"
 }
 
 .w-icon-nav-menu:before {
-  content: "î˜‚"
+  content: "ÃƒÂ®Ã‹Å“Ã¢â‚¬Å¡"
 }
 
 .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-  content: "î˜ƒ"
+  content: "ÃƒÂ®Ã‹Å“Ã†â€™"
 }
 
 .w-icon-file-upload-remove:before {
-  content: "î¤€"
+  content: "ÃƒÂ®Ã‚Â¤Ã¢â€šÂ¬"
 }
 
 .w-icon-file-upload-icon:before {
-  content: "î¤ƒ"
+  content: "ÃƒÂ®Ã‚Â¤Ã†â€™"
 }
 
 * {
@@ -2429,11 +2429,11 @@ figcaption {
 .container-medium {
   z-index: 999;
   width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px
+  max-width: 90vw;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
 }
 
 .container-small {
@@ -3377,6 +3377,7 @@ figcaption {
   padding-top: 96px;
   padding-bottom: 96px;
   position: relative;
+  height: 100vh !important;
   overflow: hidden
 }
 
@@ -3412,7 +3413,7 @@ figcaption {
   justify-content: space-between;
   max-width: 70vw;
   height: 60vh;
-  padding: 35px;
+  padding: 5vh;
   color: #f4ebeb !important;
   border: 1px solid rgba(255, 255, 255, .25)!important;
   border-radius: 20px;
@@ -3428,7 +3429,10 @@ figcaption {
   font-size: 2.7vh;
   font-weight: 400;
   line-height: 4vh;
+  text-align: justify !important;
   display: block;
+  width: max-content;
+  max-width: 50vw;
 }
 .col
 .card-footer {
@@ -4463,15 +4467,15 @@ figcaption {
   z-index: -2;
   width: 530px;
   height: 480px;
-  filter: blur(128px);
+  filter: blur(142px);
   mix-blend-mode: normal;
-  background-image: linear-gradient(221deg, #e11183, #662f89);
+  background-image: linear-gradient(221deg, #8e2960, #73188b);
   border-radius: 526px;
   position: absolute;
   top: 24%;
   bottom: 24%;
   left: 18%;
-  right: 51%
+  right: 51%;
 }
 
 .polygon-about-on.polygon-testimonial {
@@ -4486,12 +4490,12 @@ figcaption {
   width: 600px;
   height: 543px;
   filter: blur(256px);
-  background-color: #591ef6;
+  background-color: #4c0a74;
   border-radius: 512px;
   position: absolute;
   top: 20%;
   bottom: 14%;
-  left: auto;
+  left: 71%;
   right: -20%
 }
 
